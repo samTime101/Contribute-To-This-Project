@@ -1,6 +1,6 @@
 import numberOfFiles from '../archive/archiveFilesTotal.js'
 
-const contributionsDisplay = document.getElementById('contributions-number')
+const contributionsDisplay = document.querySelector('#contributions-number')
 const displayClass = document.getElementById('contributions-number').classList
 let displayNumber = 0
 
@@ -149,7 +149,7 @@ currentYearSpan.innerText = currentYear
 // }
 
 // Get the button
-let topButton = document.getElementById('topButton')
+let topButton = document.querySelector('#topButton')
 
 // When the user scrolls down 500px from the top of the document, show the button
 window.onscroll = function() {
